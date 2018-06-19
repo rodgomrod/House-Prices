@@ -10,6 +10,7 @@ import seaborn as sns
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import ElasticNetCV
 from sklearn.model_selection import GridSearchCV
+from sklearn.linear_model import Lasso
 from sklearn.externals import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import SGDRegressor
@@ -34,6 +35,10 @@ def save_model(model, name, score):
         os.makedirs(dir)
     joblib.dump(model, dir+'/'+name+'_'+str(score)+'.pkl')
 
+def submit(model, name):
+    preds_test = np.expm1(model.predict(test[X_train.columns]))
+    submiss = pd.DataFrame({'Id': test['Id'], 'SalePrice': preds_test})
+    submiss.to_csv('submissions/{0}_{1}.csv'.format(name, round(rmse, 4)), index=None)
 
 RANDOM_STATE = 1992
 
@@ -75,23 +80,39 @@ X_test = X_test.loc[:,X_train.columns]
 # save_model(xgboost_model, 'xgbr', rmse)
 # print('XGBoost RMSE:',rmse)
 ####################################################
-print('Entrenando Linear Regression')
-param_lr = {'fit_intercept': [True, False],
-             "normalize": [True, False]
-             }
+# print('Entrenando Linear Regression')
+# param_lr = {'fit_intercept': [True, False],
+#              "normalize": [True, False]
+#              }
+#
+# estimator_lr = LinearRegression()
+# # lr_model = GridSearchCV(estimator=estimator_lr,
+# #                              param_grid=param_lr,
+# #                              n_jobs=-1,
+# #                              cv=5,
+# #                              verbose=0)
+#
+# estimator_lr.fit(X_train, y_train)
+# preds = estimator_lr.predict(X_test)
+# rmse = np.sqrt(mean_squared_error(y_test, preds))
+# save_model(estimator_lr, 'lr', rmse)
+# print('LinearRegression RMSE:',rmse)
 
-estimator_lr = LinearRegression()
+####################################################
+print('Entrenando Lasso')
+
+estimator_lasso = Lasso(alpha=0.001, max_iter=100, tol=0.01)
 # lr_model = GridSearchCV(estimator=estimator_lr,
 #                              param_grid=param_lr,
 #                              n_jobs=-1,
 #                              cv=5,
 #                              verbose=0)
 
-estimator_lr.fit(X_train, y_train)
-preds = estimator_lr.predict(X_test)
-rmse = mean_squared_error(y_test, preds)
-save_model(estimator_lr, 'lr', rmse)
-print('LinearRegression RMSE:',rmse)
+estimator_lasso.fit(X_train, y_train)
+preds = estimator_lasso.predict(X_test)
+rmse = np.sqrt(mean_squared_error(y_test, preds))
+save_model(estimator_lasso, 'lasso', rmse)
+print('Lasso RMSE:',rmse)
 ####################################################
 
 # param_rf = {'n_estimators': [10, 50, 100, 200],
@@ -245,13 +266,9 @@ print('LinearRegression RMSE:',rmse)
 # print('Keras RMSE:',rmse)
 
 
-# # ####################################################
+# # SUBMISSIONS
 
-
-# preds_test = xgboost_model.predict(test.loc[:,X_train.columns])
-preds_test = np.expm1(estimator_lr.predict(test[X_train.columns]))
-submiss = pd.DataFrame({'Id': test['Id'], 'SalePrice': preds_test})
-submiss.to_csv('submissions/rmse_{}.csv'.format(round(rmse, 7)), index=None)
+# submit(estimator_lasso, 'Lasso')
 
 # x_plot = list(range(len(X_test)))
 # plt.plot(x_plot,preds, '--', x_plot, y_test, '--k')
