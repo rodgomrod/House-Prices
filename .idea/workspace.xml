@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b2d8fb-2193-4ea2-bc35-f3ddbb50c5f7" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/House Prices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/House Prices.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,17 +20,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/House_Prices$feature_engineering.coverage" NAME="feature_engineering Coverage Results" MODIFIED="1522256425833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/House_Prices$run.coverage" NAME="run Coverage Results" MODIFIED="1522850132745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/House_Prices$stack.coverage" NAME="stack Coverage Results" MODIFIED="1522924715895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+    <SUITE FILE_PATH="coverage/House_Prices$run.coverage" NAME="run Coverage Results" MODIFIED="1522069756705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/House_Prices$feature_engineering.coverage" NAME="feature_engineering Coverage Results" MODIFIED="1521982202916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="7722">
               <caret line="376" column="33" selection-start-line="352" selection-start-column="1" selection-end-line="376" selection-end-column="33" />
+=======
+            <state relative-caret-position="-716">
+              <caret line="220" column="46" selection-start-line="220" selection-start-column="46" selection-end-line="220" selection-end-column="46" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -33,6 +48,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="stack.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stack.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,6 +58,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -76,34 +94,65 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="54" />
     <option name="y" value="-11" />
     <option name="width" value="1867" />
     <option name="height" value="1092" />
+=======
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1032" />
+    <option name="height" value="732" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="House Prices" type="b2602c69:ProjectViewProjectNode" />
               <item name="House Prices" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="House-Prices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="House-Prices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="House-Prices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="House-Prices" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="House-Prices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="House-Prices" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="2018-6-20" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,7 +166,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.stack">
+=======
+  <component name="RunManager" selected="Python.run">
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="House Prices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,6 +202,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering_models.py" />
       <option name="PARAMETERS" value="" />
@@ -168,14 +222,20 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+=======
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering_models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
       <module name="House Prices" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,7 +248,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,11 +385,17 @@
     <list>
       <item itemvalue="Python.run" />
       <item itemvalue="Python.feature_engineering" />
+<<<<<<< HEAD
       <item itemvalue="Python.stack" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.stack" />
+=======
+    </list>
+    <recent_temporary>
+      <list>
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
         <item itemvalue="Python.run" />
         <item itemvalue="Python.feature_engineering" />
       </list>
@@ -345,6 +415,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="61" y="-8" width="1860" height="1089" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23001096" />
@@ -355,18 +426,38 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32195678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.34129694" />
+=======
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15429173" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3188406" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34225196" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Data View" order="5" />
+=======
+      <window_info anchor="right" id="Data View" order="4" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+=======
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,8 +469,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="8272">
           <caret line="376" column="33" selection-start-line="352" selection-start-column="1" selection-end-line="376" selection-end-column="33" />
+=======
+        <state relative-caret-position="833">
+          <caret line="49" column="66" lean-forward="true" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -395,8 +501,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="7722">
           <caret line="376" column="33" selection-start-line="352" selection-start-column="1" selection-end-line="376" selection-end-column="33" />
+=======
+        <state relative-caret-position="336">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -412,14 +523,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="7722">
           <caret line="376" column="33" selection-start-line="352" selection-start-column="1" selection-end-line="376" selection-end-column="33" />
+=======
+        <state>
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/stack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
@@ -495,12 +611,31 @@
         </state>
       </provider>
     </entry>
+=======
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clustering_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -518,11 +653,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1113">
           <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+=======
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="819">
           <caret line="39" column="38" lean-forward="true" selection-start-line="26" selection-end-line="39" selection-end-column="38" />
           <folding>
@@ -540,6 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
         <state>
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -547,6 +696,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -639,13 +789,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="692">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
+=======
+    <entry file="file://$PROJECT_DIR$/data/km_train.csv" />
+    <entry file="file://$PROJECT_DIR$/kmeans/km_16.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/km_test.csv" />
+    <entry file="file://$PROJECT_DIR$/data/km_train_extra.csv" />
+    <entry file="file://$PROJECT_DIR$/data/pre_test.csv" />
+    <entry file="file://$PROJECT_DIR$/data/test_ft_sel_40.csv" />
+    <entry file="file://$PROJECT_DIR$/clustering_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="9" column="55" selection-start-line="9" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf-idf.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processing_v2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_eng_v2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="7722">
           <caret line="376" column="33" selection-start-line="352" selection-start-column="1" selection-end-line="376" selection-end-column="33" />
+=======
+        <state relative-caret-position="-716">
+          <caret line="220" column="46" selection-start-line="220" selection-start-column="46" selection-end-line="220" selection-end-column="46" />
+>>>>>>> 92865a6fd6f1e8c9816fd00faaf722525d70275d
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
